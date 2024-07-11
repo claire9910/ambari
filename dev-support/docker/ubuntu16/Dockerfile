@@ -16,7 +16,7 @@
 
 # Dockerfile for installing the necessary dependencies for building Ambari on Ubuntu 16.04
 
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 
 RUN apt-get update -q -y \
   && apt-get install -y --no-install-recommends \
